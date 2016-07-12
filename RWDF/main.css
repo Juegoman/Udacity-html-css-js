@@ -386,6 +386,9 @@ footer a {
  * Responsive css
  *
  */
+ .winner-header {
+   display: none;
+ }
 
 @media screen and (min-width: 571px) {
   .hero {
@@ -403,5 +406,20 @@ footer a {
 @media screen and (min-width: 800px) {
   main {
     width: 800px;
+  }
+}
+@media screen and (max-width: 400px) {
+  th, td {
+    display: none;
+  }
+  .date, .winner {
+    display: table-cell;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 530px) {
+  .header__title {
+    font-size: 2.1em;
+    margin-top: 1.2em;
   }
 }

@@ -16,6 +16,12 @@ module.exports = function(grunt) {
           sizes: [{
             width: '1600px',
             quality: 30
+          }, {
+            width: '800px',
+            quality: 30
+          }, {
+            width: '400px',
+            quality: 30
           }]
         },
 

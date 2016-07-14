@@ -20,12 +20,20 @@ I've left some boilerplate below for you.
 
 body {
   text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
 
 article {
   max-width: 50em;
   text-align: center;
   margin: auto;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, #90B6FD, #EEE);
 }
 
 .svg-logo {
@@ -39,5 +47,17 @@ article {
 }
 
 img {
-  max-width: 100%
+  width: 100%
+}
+
+@media screen and (max-width: 500px) {
+  .horses {
+    overflow: hidden;
+    height: 200px;
+  }
+  .horses img {
+    width: 800px;
+    margin-top: calc(-130px);
+    margin-left: calc(40% + -415px);
+  }
 }

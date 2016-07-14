@@ -1,3 +1,3 @@
 bootstrapportfolio/*/*.min.*
-responsiveblog/images
+responsiveblog/images/*.jpg
 responsiveblog/node_modules

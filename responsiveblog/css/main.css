@@ -11,6 +11,12 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
 
 body {
   text-align: center;
@@ -22,8 +28,14 @@ article {
   margin: auto;
 }
 
-h1 {
+.svg-logo {
+  max-width: 300px;
+  width: 30%;
+}
 
+.flourish {
+  max-width: 800px;
+  width: 100%;
 }
 
 img {
